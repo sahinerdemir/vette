@@ -17,12 +17,9 @@ export function Footer() {
           height={50}
           className="mx-auto mb-4 object-contain"
         />
-        <p className="text-sm font-heading uppercase tracking-widest text-gray-500 mb-6">
-          {t('tagline')}
-        </p>
         <div className="w-16 h-px bg-navy-700 mx-auto mb-6" />
         <p className="text-sm">
-          &copy; {year} Vette. {t('rights')}
+          &copy; {year} Vette LLC. {t('rights')}
         </p>
       </div>
     </footer>
