@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Vette — Premium Oto Brokerlik",
+    "description": "Vette, hayalinizdeki aracı bulma, pazarlık yapma ve satın alma sürecinde güvenilir ortağınızdır. Dünya çapında profesyonel oto brokerlik hizmetleri."
+  },
+  "nav": {
+    "about": "Hakkımızda",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "theme": "Tema değiştir"
+  },
+  "hero": {
+    "title": "Premium Oto Brokerlik",
+    "subtitle": "Mükemmel aracı bulmada güvenilir ortağınız",
+    "cta": "Bize Ulaşın"
+  },
+  "about": {
+    "title": "Biz Kimiz",
+    "description": "Vette, müşterilerine hayallerindeki aracı bulma, pazarlık yapma ve satın alma konusunda yardımcı olan premium bir oto brokerlik şirketidir. Otomotiv sektöründeki yılların deneyimiyle, sorunsuz, şeffaf ve profesyonel bir araç satın alma deneyimi sunuyoruz.",
+    "mission": "Misyonumuz, araç satın alma sürecindeki stresi ortadan kaldırmaktır. İster lüks bir sedan, ister yüksek performanslı bir spor araba, ister güvenilir bir aile aracı arıyor olun, uzman ekibimiz en iyi seçenekleri en iyi fiyatlarla bulmak için yorulmadan çalışır.",
+    "services_title": "Ne Yapıyoruz",
+    "service1_title": "Araç Tedariki",
+    "service1_desc": "Geniş bayi ve özel satıcı ağımızdan yararlanarak, aradığınız aracı ülke çapında ve uluslararası alanda arıyoruz.",
+    "service2_title": "Uzman Pazarlık",
+    "service2_desc": "Deneyimli brokerlerimiz, size en iyi anlaşmayı sağlamak için sizin adınıza pazarlık yapar, zamandan ve paradan tasarruf etmenizi sağlar.",
+    "service3_title": "Uçtan Uca Destek",
+    "service3_desc": "İlk danışmanlıktan son teslimata kadar muayene, evrak işleri, finansman ve lojistik dahil her detayla ilgileniyoruz."
+  },
+  "gallery": {
+    "title": "Galeri",
+    "subtitle": "Vette dünyasından bir kesit"
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Hayalinizdeki aracı bulmaya hazır mısınız? Size nasıl yardımcı olabileceğimizi bildirin.",
+    "name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "phone": "Telefon Numarası",
+    "vehicle": "İlgilenilen Araç",
+    "vehicle_placeholder": "örn. 2024 Porsche 911 GT3",
+    "message": "Mesaj",
+    "submit": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.",
+    "error": "Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin."
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "tagline": "Premium Oto Brokerlik"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Vette — Ndërmjetësim Premium i Automjeteve",
+    "description": "Vette është partneri juaj i besuar për gjetjen, negocimin dhe blerjen e automjetit të ëndrrave tuaja. Shërbime profesionale ndërmjetësimi automjetesh në mbarë botën."
+  },
+  "nav": {
+    "about": "Rreth Nesh",
+    "gallery": "Galeria",
+    "contact": "Kontakti",
+    "theme": "Ndrysho temën"
+  },
+  "hero": {
+    "title": "Ndërmjetësim Premium i Automjeteve",
+    "subtitle": "Partneri juaj i besuar në gjetjen e automjetit perfekt",
+    "cta": "Na Kontaktoni"
+  },
+  "about": {
+    "title": "Kush Jemi",
+    "description": "Vette është një kompani premium e ndërmjetësimit të automjeteve, e dedikuar për të ndihmuar klientët të gjejnë, negociojnë dhe blejnë automjetet e ëndrrave të tyre. Me vite përvojë në industrinë e automobilave, ne ofrojmë një përvojë blerjeje të qetë, transparente dhe profesionale.",
+    "mission": "Misioni ynë është të heqim stresin nga blerja e makinave. Pavarësisht nëse kërkoni një sedan luksoz, një makinë sportive me performancë të lartë ose një automjet familjar të besueshëm, ekipi ynë i ekspertëve punon pa pushim për të gjetur opsionet më të mira me çmimet më të mira.",
+    "services_title": "Çfarë Bëjmë",
+    "service1_title": "Furnizimi i Automjeteve",
+    "service1_desc": "Kërkojmë në nivel kombëtar dhe ndërkombëtar për të gjetur saktësisht automjetin që kërkoni, duke shfrytëzuar rrjetin tonë të gjerë të tregtarëve dhe shitësve privatë.",
+    "service2_title": "Negocim Ekspert",
+    "service2_desc": "Ndërmjetësit tanë me përvojë negociojnë në emrin tuaj për të siguruar që të merrni marrëveshjen më të mirë të mundshme, duke ju kursyer kohë dhe para.",
+    "service3_title": "Mbështetje e Plotë",
+    "service3_desc": "Nga konsultimi fillestar deri te dorëzimi përfundimtar, ne trajtojmë çdo detaj duke përfshirë inspektimet, dokumentacionin, financimin dhe logjistikën."
+  },
+  "gallery": {
+    "title": "Galeria Jonë",
+    "subtitle": "Një vështrim në botën e Vette"
+  },
+  "contact": {
+    "title": "Na Kontaktoni",
+    "subtitle": "Gati për të gjetur automjetin e ëndrrave tuaja? Na tregoni si mund t'ju ndihmojmë.",
+    "name": "Emri i Plotë",
+    "email": "Adresa e Email-it",
+    "phone": "Numri i Telefonit",
+    "vehicle": "Automjeti i Interesit",
+    "vehicle_placeholder": "p.sh. 2024 Porsche 911 GT3",
+    "message": "Mesazhi",
+    "submit": "Dërgo Mesazhin",
+    "sending": "Duke dërguar...",
+    "success": "Mesazhi juaj u dërgua me sukses! Do t'ju kontaktojmë së shpejti.",
+    "error": "Dërgimi i mesazhit dështoi. Ju lutem provoni përsëri më vonë."
+  },
+  "footer": {
+    "rights": "Të gjitha të drejtat e rezervuara.",
+    "tagline": "Ndërmjetësim Premium i Automjeteve"
+  }
+}

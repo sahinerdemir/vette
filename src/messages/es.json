@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Vette — Corretaje de Autos Premium",
+    "description": "Vette es su socio de confianza para encontrar, negociar y adquirir el vehículo de sus sueños. Servicios profesionales de corretaje de autos en todo el mundo."
+  },
+  "nav": {
+    "about": "Nosotros",
+    "gallery": "Galería",
+    "contact": "Contacto",
+    "theme": "Cambiar tema"
+  },
+  "hero": {
+    "title": "Corretaje de Autos Premium",
+    "subtitle": "Su socio de confianza para encontrar el vehículo perfecto",
+    "cta": "Contáctenos"
+  },
+  "about": {
+    "title": "Quiénes Somos",
+    "description": "Vette es una empresa premium de corretaje de automóviles dedicada a ayudar a los clientes a encontrar, negociar y adquirir los vehículos de sus sueños. Con años de experiencia en la industria automotriz, ofrecemos una experiencia de compra de autos fluida, transparente y profesional.",
+    "mission": "Nuestra misión es eliminar el estrés de la compra de autos. Ya sea que busque un sedán de lujo, un auto deportivo de alto rendimiento o un vehículo familiar confiable, nuestro equipo de expertos trabaja incansablemente para encontrar las mejores opciones a los mejores precios.",
+    "services_title": "Lo Que Hacemos",
+    "service1_title": "Búsqueda de Vehículos",
+    "service1_desc": "Buscamos a nivel nacional e internacional para encontrar exactamente el vehículo que busca, aprovechando nuestra extensa red de concesionarios y vendedores privados.",
+    "service2_title": "Negociación Experta",
+    "service2_desc": "Nuestros corredores experimentados negocian en su nombre para asegurar que obtenga la mejor oferta posible, ahorrándole tiempo y dinero.",
+    "service3_title": "Soporte Integral",
+    "service3_desc": "Desde la consulta inicial hasta la entrega final, nos encargamos de cada detalle, incluyendo inspecciones, documentación, financiamiento y logística."
+  },
+  "gallery": {
+    "title": "Nuestra Galería",
+    "subtitle": "Una mirada al mundo de Vette"
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "¿Listo para encontrar el vehículo de sus sueños? Díganos cómo podemos ayudarle.",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "vehicle": "Vehículo de Interés",
+    "vehicle_placeholder": "ej. 2024 Porsche 911 GT3",
+    "message": "Mensaje",
+    "submit": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Su mensaje ha sido enviado con éxito! Nos pondremos en contacto con usted pronto.",
+    "error": "No se pudo enviar el mensaje. Por favor, inténtelo de nuevo más tarde."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "tagline": "Corretaje de Autos Premium"
+  }
+}

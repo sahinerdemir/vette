@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts loaded via next/font in layout.tsx */
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply font-body antialiased;
+  }
+
+  .dark body,
+  .dark {
+    color-scheme: dark;
+  }
+}
+
+@layer components {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-red to-accent-blue;
+  }
+
+  .glass {
+    @apply backdrop-blur-md bg-white/10 dark:bg-navy-900/60 border border-white/20 dark:border-white/10;
+  }
+
+  .section-padding {
+    @apply py-24 px-6 md:px-12 lg:px-24;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-navy-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-navy-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500 dark:bg-navy-700;
+}
+
+/* Smooth parallax container */
+.parallax-container {
+  perspective: 1px;
+  overflow-x: hidden;
+}

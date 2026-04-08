@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Vette — Premium Auto-Vermittlung",
+    "description": "Vette ist Ihr vertrauenswürdiger Partner bei der Suche, Verhandlung und dem Erwerb Ihres Traumfahrzeugs. Professionelle Auto-Vermittlungsdienste weltweit."
+  },
+  "nav": {
+    "about": "Über uns",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "theme": "Design wechseln"
+  },
+  "hero": {
+    "title": "Premium Auto-Vermittlung",
+    "subtitle": "Ihr vertrauenswürdiger Partner bei der Suche nach dem perfekten Fahrzeug",
+    "cta": "Kontakt aufnehmen"
+  },
+  "about": {
+    "title": "Wer Wir Sind",
+    "description": "Vette ist ein Premium-Auto-Vermittlungsunternehmen, das sich darauf spezialisiert hat, Kunden bei der Suche, Verhandlung und dem Erwerb ihrer Traumfahrzeuge zu unterstützen. Mit jahrelanger Erfahrung in der Automobilbranche bieten wir ein nahtloses, transparentes und professionelles Autokauferlebnis.",
+    "mission": "Unsere Mission ist es, den Stress beim Autokauf zu beseitigen. Ob Sie eine Luxuslimousine, einen Hochleistungssportwagen oder ein zuverlässiges Familienfahrzeug suchen — unser Expertenteam arbeitet unermüdlich daran, die besten Optionen zu den besten Preisen zu finden.",
+    "services_title": "Was Wir Tun",
+    "service1_title": "Fahrzeugbeschaffung",
+    "service1_desc": "Wir suchen landesweit und international nach genau dem Fahrzeug, das Sie suchen, und nutzen dabei unser umfangreiches Netzwerk von Händlern und privaten Verkäufern.",
+    "service2_title": "Expertenverhandlung",
+    "service2_desc": "Unsere erfahrenen Makler verhandeln in Ihrem Namen, um sicherzustellen, dass Sie das bestmögliche Angebot erhalten und dabei Zeit und Geld sparen.",
+    "service3_title": "Rundum-Betreuung",
+    "service3_desc": "Von der ersten Beratung bis zur endgültigen Lieferung kümmern wir uns um jedes Detail, einschließlich Inspektionen, Papierkram, Finanzierung und Logistik."
+  },
+  "gallery": {
+    "title": "Unsere Galerie",
+    "subtitle": "Ein Einblick in die Welt von Vette"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Bereit, Ihr Traumfahrzeug zu finden? Lassen Sie uns wissen, wie wir Ihnen helfen können.",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "vehicle": "Gewünschtes Fahrzeug",
+    "vehicle_placeholder": "z.B. 2024 Porsche 911 GT3",
+    "message": "Nachricht",
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Ihre Nachricht wurde erfolgreich gesendet! Wir werden uns bald bei Ihnen melden.",
+    "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später erneut."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "tagline": "Premium Auto-Vermittlung"
+  }
+}

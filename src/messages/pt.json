@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Vette — Corretagem Automotiva Premium",
+    "description": "A Vette é sua parceira de confiança para encontrar, negociar e adquirir o veículo dos seus sonhos. Serviços profissionais de corretagem automotiva em todo o mundo."
+  },
+  "nav": {
+    "about": "Sobre",
+    "gallery": "Galeria",
+    "contact": "Contato",
+    "theme": "Alternar tema"
+  },
+  "hero": {
+    "title": "Corretagem Automotiva Premium",
+    "subtitle": "Seu parceiro de confiança para encontrar o veículo perfeito",
+    "cta": "Entre em Contato"
+  },
+  "about": {
+    "title": "Quem Somos",
+    "description": "A Vette é uma empresa premium de corretagem automotiva dedicada a ajudar os clientes a encontrar, negociar e adquirir os veículos dos seus sonhos. Com anos de experiência na indústria automotiva, oferecemos uma experiência de compra de carros fluida, transparente e profissional.",
+    "mission": "Nossa missão é eliminar o estresse da compra de carros. Seja você procurando um sedã de luxo, um carro esportivo de alto desempenho ou um veículo familiar confiável, nossa equipe de especialistas trabalha incansavelmente para encontrar as melhores opções pelos melhores preços.",
+    "services_title": "O Que Fazemos",
+    "service1_title": "Busca de Veículos",
+    "service1_desc": "Pesquisamos nacional e internacionalmente para encontrar exatamente o veículo que você procura, aproveitando nossa extensa rede de concessionárias e vendedores particulares.",
+    "service2_title": "Negociação Especializada",
+    "service2_desc": "Nossos corretores experientes negociam em seu nome para garantir que você obtenha o melhor negócio possível, economizando seu tempo e dinheiro.",
+    "service3_title": "Suporte Completo",
+    "service3_desc": "Da consulta inicial à entrega final, cuidamos de cada detalhe, incluindo inspeções, documentação, financiamento e logística."
+  },
+  "gallery": {
+    "title": "Nossa Galeria",
+    "subtitle": "Um vislumbre do mundo Vette"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Pronto para encontrar o veículo dos seus sonhos? Diga-nos como podemos ajudar.",
+    "name": "Nome Completo",
+    "email": "Endereço de E-mail",
+    "phone": "Número de Telefone",
+    "vehicle": "Veículo de Interesse",
+    "vehicle_placeholder": "ex. 2024 Porsche 911 GT3",
+    "message": "Mensagem",
+    "submit": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Sua mensagem foi enviada com sucesso! Entraremos em contato em breve.",
+    "error": "Falha ao enviar a mensagem. Por favor, tente novamente mais tarde."
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "tagline": "Corretagem Automotiva Premium"
+  }
+}

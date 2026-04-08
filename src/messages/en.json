@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Vette — Premium Auto Brokerage",
+    "description": "Vette is your trusted partner in finding, negotiating, and acquiring your dream vehicle. Professional auto brokerage services worldwide."
+  },
+  "nav": {
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "theme": "Toggle theme"
+  },
+  "hero": {
+    "title": "Premium Auto Brokerage",
+    "subtitle": "Your trusted partner in finding the perfect vehicle",
+    "cta": "Get in Touch"
+  },
+  "about": {
+    "title": "Who We Are",
+    "description": "Vette is a premium auto brokerage company dedicated to helping clients find, negotiate, and acquire their dream vehicles. With years of expertise in the automotive industry, we provide a seamless, transparent, and professional car buying experience.",
+    "mission": "Our mission is to take the stress out of car buying. Whether you're looking for a luxury sedan, a high-performance sports car, or a reliable family vehicle, our team of experts works tirelessly to source the best options at the best prices.",
+    "services_title": "What We Do",
+    "service1_title": "Vehicle Sourcing",
+    "service1_desc": "We search nationwide and internationally to find exactly the vehicle you're looking for, leveraging our extensive network of dealers and private sellers.",
+    "service2_title": "Expert Negotiation",
+    "service2_desc": "Our experienced brokers negotiate on your behalf to ensure you get the best possible deal, saving you time and money.",
+    "service3_title": "End-to-End Support",
+    "service3_desc": "From initial consultation to final delivery, we handle every detail including inspections, paperwork, financing, and logistics."
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "subtitle": "A glimpse into the world of Vette"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to find your dream vehicle? Let us know how we can help.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "vehicle": "Vehicle of Interest",
+    "vehicle_placeholder": "e.g. 2024 Porsche 911 GT3",
+    "message": "Message",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Your message has been sent successfully! We'll get back to you soon.",
+    "error": "Failed to send message. Please try again later."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Premium Auto Brokerage"
+  }
+}
