@@ -52,7 +52,7 @@ export function LanguageSwitcher() {
             <button
               key={loc}
               onClick={() => switchLocale(loc)}
-              className={`w-full text-left px-4 py-2.5 text-sm transition-colors hover:bg-white/20 dark:hover:bg-white/10 ${
+              className={`w-full text-left px-4 py-2.5 text-sm transition-colors hover:bg-white/10 ${
                 loc === locale ? 'text-accent-red font-semibold' : ''
               }`}
             >

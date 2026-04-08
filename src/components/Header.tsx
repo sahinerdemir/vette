@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { ThemeToggle } from './ThemeToggle';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -25,16 +24,17 @@ export function Header() {
   ];
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? 'top-0 py-2 glass shadow-lg'
-          : 'top-6 py-4 bg-transparent'
-      }`}
-    >
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        {/* Left nav - desktop */}
-        <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
+    <div className="fixed top-6 left-6 right-6 z-50">
+      <header
+        className={`transition-all duration-500 rounded-full px-8 ${
+          scrolled
+            ? 'py-2 glass shadow-lg'
+            : 'py-4 bg-navy-800/60 backdrop-blur-md border border-white/10'
+        }`}
+      >
+        <div className="relative flex items-center justify-between">
+          {/* Left nav - desktop */}
+          <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
           {navItems.map((item) => (
             <a
               key={item.href}
@@ -62,7 +62,6 @@ export function Header() {
         {/* Right controls */}
         <div className="hidden md:flex items-center gap-3">
           <LanguageSwitcher />
-          <ThemeToggle />
         </div>
 
         {/* Mobile hamburger */}
@@ -88,7 +87,7 @@ export function Header() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden fixed inset-0 top-0 bg-white/95 dark:bg-navy-900/95 backdrop-blur-xl z-40 flex flex-col items-center justify-center gap-8"
+            className="md:hidden fixed inset-0 top-0 bg-navy-900/95 backdrop-blur-xl z-40 flex flex-col items-center justify-center gap-8"
           >
             {navItems.map((item) => (
               <a
@@ -102,11 +101,11 @@ export function Header() {
             ))}
             <div className="flex items-center gap-4 mt-8">
               <LanguageSwitcher />
-              <ThemeToggle />
             </div>
           </motion.div>
         )}
       </AnimatePresence>
-    </header>
+      </header>
+    </div>
   );
 }

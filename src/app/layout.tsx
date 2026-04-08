@@ -16,8 +16,8 @@ const oswald = Oswald({
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html suppressHydrationWarning>
-      <body className={`${inter.variable} ${oswald.variable} font-body bg-white dark:bg-navy-900 text-gray-900 dark:text-gray-100 transition-colors duration-300`}>
+    <html className="dark">
+      <body className={`${inter.variable} ${oswald.variable} font-body bg-navy-900 text-gray-100`}>
         {children}
       </body>
     </html>

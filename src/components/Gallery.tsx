@@ -26,7 +26,7 @@ export function Gallery() {
           <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-center mb-6">
             {t('title')}
           </h2>
-          <p className="text-gray-500 dark:text-gray-400 text-center mb-4">{t('subtitle')}</p>
+          <p className="text-gray-400 text-center mb-4">{t('subtitle')}</p>
           <div className="w-20 h-1 bg-accent-red mx-auto mb-16" />
         </AnimatedSection>
 

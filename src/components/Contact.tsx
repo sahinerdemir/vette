@@ -41,7 +41,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="section-padding bg-gray-50 dark:bg-navy-800 relative overflow-hidden">
+    <section id="contact" className="section-padding bg-navy-800 relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-accent-red/5 rounded-full blur-3xl" />
 
       <div className="max-w-3xl mx-auto relative z-10">
@@ -49,7 +49,7 @@ export function Contact() {
           <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-center mb-6">
             {t('title')}
           </h2>
-          <p className="text-gray-500 dark:text-gray-400 text-center mb-4">{t('subtitle')}</p>
+          <p className="text-gray-400 text-center mb-4">{t('subtitle')}</p>
           <div className="w-20 h-1 bg-accent-red mx-auto mb-16" />
         </AnimatedSection>
 
@@ -65,7 +65,7 @@ export function Contact() {
                   id="name"
                   name="name"
                   required
-                  className="w-full px-4 py-3 rounded-xl bg-white dark:bg-navy-700 border border-gray-200 dark:border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none"
+                  className="w-full px-4 py-3 rounded-xl bg-navy-700 border border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none"
                 />
               </div>
               <div>
@@ -77,7 +77,7 @@ export function Contact() {
                   id="email"
                   name="email"
                   required
-                  className="w-full px-4 py-3 rounded-xl bg-white dark:bg-navy-700 border border-gray-200 dark:border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none"
+                  className="w-full px-4 py-3 rounded-xl bg-navy-700 border border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none"
                 />
               </div>
             </div>
@@ -91,7 +91,7 @@ export function Contact() {
                   type="tel"
                   id="phone"
                   name="phone"
-                  className="w-full px-4 py-3 rounded-xl bg-white dark:bg-navy-700 border border-gray-200 dark:border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none"
+                  className="w-full px-4 py-3 rounded-xl bg-navy-700 border border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none"
                 />
               </div>
               <div>
@@ -103,7 +103,7 @@ export function Contact() {
                   id="vehicle"
                   name="vehicle"
                   placeholder={t('vehicle_placeholder')}
-                  className="w-full px-4 py-3 rounded-xl bg-white dark:bg-navy-700 border border-gray-200 dark:border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none placeholder:text-gray-400 dark:placeholder:text-gray-500"
+                  className="w-full px-4 py-3 rounded-xl bg-navy-700 border border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none placeholder:text-gray-500"
                 />
               </div>
             </div>
@@ -117,7 +117,7 @@ export function Contact() {
                 name="message"
                 required
                 rows={5}
-                className="w-full px-4 py-3 rounded-xl bg-white dark:bg-navy-700 border border-gray-200 dark:border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none resize-none"
+                className="w-full px-4 py-3 rounded-xl bg-navy-700 border border-navy-600 focus:border-accent-red focus:ring-2 focus:ring-accent-red/20 transition-all duration-300 outline-none resize-none"
               />
             </div>
 
@@ -137,7 +137,7 @@ export function Contact() {
               <motion.p
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="text-center text-green-600 dark:text-green-400 font-medium"
+                className="text-center text-green-400 font-medium"
                 role="status"
               >
                 {t('success')}

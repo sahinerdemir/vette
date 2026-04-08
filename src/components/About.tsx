@@ -28,7 +28,7 @@ export function About() {
   ];
 
   return (
-    <section id="about" className="section-padding bg-gray-50 dark:bg-navy-800 relative overflow-hidden">
+    <section id="about" className="section-padding bg-navy-800 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-72 h-72 bg-accent-red/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-72 h-72 bg-accent-blue/5 rounded-full blur-3xl" />
@@ -42,13 +42,13 @@ export function About() {
         </AnimatedSection>
 
         <AnimatedSection delay={0.1}>
-          <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 text-center max-w-4xl mx-auto mb-8 leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-300 text-center max-w-4xl mx-auto mb-8 leading-relaxed">
             {t('description')}
           </p>
         </AnimatedSection>
 
         <AnimatedSection delay={0.2}>
-          <p className="text-base md:text-lg text-gray-500 dark:text-gray-400 text-center max-w-3xl mx-auto mb-16 leading-relaxed">
+          <p className="text-base md:text-lg text-gray-400 text-center max-w-3xl mx-auto mb-16 leading-relaxed">
             {t('mission')}
           </p>
         </AnimatedSection>
@@ -63,14 +63,14 @@ export function About() {
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((service, i) => (
             <AnimatedSection key={i} delay={0.4 + i * 0.15}>
-              <div className="group p-8 rounded-2xl bg-white dark:bg-navy-700/50 border border-gray-200 dark:border-navy-600 hover:border-accent-red/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-accent-red/10">
+              <div className="group p-8 rounded-2xl bg-navy-700/50 border border-navy-600 hover:border-accent-red/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-accent-red/10">
                 <div className="w-16 h-16 rounded-xl bg-accent-red/10 text-accent-red flex items-center justify-center mb-6 group-hover:bg-accent-red group-hover:text-white transition-all duration-300">
                   {service.icon}
                 </div>
                 <h4 className="font-heading text-xl font-bold uppercase tracking-wide mb-4">
                   {service.title}
                 </h4>
-                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p className="text-gray-400 leading-relaxed">
                   {service.desc}
                 </p>
               </div>
