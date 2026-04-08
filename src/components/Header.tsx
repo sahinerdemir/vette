@@ -28,8 +28,8 @@ export function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'py-2 glass shadow-lg'
-          : 'pt-6 pb-4 bg-transparent'
+          ? 'top-0 py-2 glass shadow-lg'
+          : 'top-6 py-4 bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
