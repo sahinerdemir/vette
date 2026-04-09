@@ -59,7 +59,7 @@ export function Gallery() {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.98 }}
-                className="relative aspect-square rounded-xl overflow-hidden group block"
+                className="relative aspect-[686/600] rounded-xl overflow-hidden group block"
                 aria-label={`${item.alt} - View on Instagram`}
               >
                 <Image
