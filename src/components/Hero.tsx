@@ -22,21 +22,27 @@ export function Hero() {
       ref={ref}
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Parallax background */}
+      {/* Video background */}
       <motion.div
         style={{ y }}
-        className="absolute inset-0 bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900 dark:from-navy-900 dark:via-navy-800 dark:to-navy-900"
+        className="absolute inset-0"
       >
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/vette.mp4" type="video/mp4" />
+        </video>
+        {/* Dark overlay to make video subtle */}
+        <div className="absolute inset-0 bg-navy-900/75" />
         {/* Decorative elements */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-accent-red/20 rounded-full blur-3xl" />
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent-blue/20 rounded-full blur-3xl" />
         </div>
-        {/* Grid pattern */}
-        <div className="absolute inset-0 opacity-5" style={{
-          backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)',
-          backgroundSize: '60px 60px',
-        }} />
       </motion.div>
 
       <motion.div style={{ opacity }} className="relative z-10 text-center px-6 max-w-5xl mx-auto">
