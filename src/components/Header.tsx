@@ -36,16 +36,16 @@ export function Header() {
           {/* Logo - absolute, overflows the container */}
           <a
             href="#"
-            className="absolute left-1/2 -translate-x-1/2 -top-2 md:-top-4"
+            className="absolute left-1/2 -translate-x-1/2 -top-6 md:-top-4"
             aria-label="Vette - Home"
           >
             <Image
               src="/logo.png"
               alt="Vette Auto Brokerage Logo"
-              width={scrolled ? 100 : 140}
-              height={scrolled ? 50 : 70}
+              width={scrolled ? 120 : 180}
+              height={scrolled ? 60 : 90}
               className="transition-all duration-500 object-contain"
-              style={{ width: scrolled ? 100 : 140, height: 'auto' }}
+              style={{ width: scrolled ? 120 : 180, height: 'auto' }}
               priority
             />
           </a>
