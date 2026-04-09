@@ -34,7 +34,7 @@ export function Hero() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/vette.mp4" type="video/mp4" />
+          <source src="/buying.mp4" type="video/mp4" />
         </video>
         {/* Dark overlay to make video subtle */}
         <div className="absolute inset-0 bg-navy-900/75" />
