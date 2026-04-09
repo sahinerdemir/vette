@@ -6,6 +6,7 @@ import { About } from '@/components/About';
 import { Gallery } from '@/components/Gallery';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
+import { WhatsAppButton } from '@/components/WhatsAppButton';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -53,6 +54,7 @@ export default function HomePage() {
       <Gallery />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </main>
   );
 }
