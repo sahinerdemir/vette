@@ -16,8 +16,6 @@ const galleryImages = [
   { src: '/gallery/img6.jpg', alt: 'Vette Auto Brokerage' },
   { src: '/gallery/img7.jpg', alt: 'Vette Auto Brokerage' },
   { src: '/gallery/img8.jpg', alt: 'Vette Auto Brokerage' },
-  { src: '/gallery/img9.jpg', alt: 'Vette Auto Brokerage' },
-  { src: '/gallery/img10.jpg', alt: 'Vette Auto Brokerage' },
 ];
 
 export function Gallery() {
@@ -82,6 +80,21 @@ export function Gallery() {
               </motion.a>
             </AnimatedSection>
           ))}
+
+          {/* Video - spans 2 columns to fill the last row */}
+          <AnimatedSection delay={0.4} className="col-span-2">
+            <div className="relative aspect-[686/600] rounded-xl overflow-hidden">
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-cover"
+              >
+                <source src="/gallery/car.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </AnimatedSection>
         </div>
       </div>
     </section>
