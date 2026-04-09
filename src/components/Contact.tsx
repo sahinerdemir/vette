@@ -14,22 +14,17 @@ export function Contact() {
     setStatus('sending');
 
     const formData = new FormData(e.currentTarget);
-    const data = {
-      name: formData.get('name') as string,
-      email: formData.get('email') as string,
-      phone: formData.get('phone') as string,
-      vehicle: formData.get('vehicle') as string,
-      message: formData.get('message') as string,
-    };
+    formData.append('access_key', 'YOUR_WEB3FORMS_KEY');
 
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        body: formData,
       });
 
-      if (res.ok) {
+      const data = await res.json();
+
+      if (data.success) {
         setStatus('success');
         (e.target as HTMLFormElement).reset();
       } else {
