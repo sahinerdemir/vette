@@ -66,22 +66,23 @@ export function Header() {
               <LanguageSwitcher />
             </div>
 
-            {/* Mobile hamburger */}
-            <button
-              className="md:hidden ml-auto relative z-[60] w-10 h-10 flex items-center justify-center"
-              onClick={() => setMenuOpen(!menuOpen)}
-              aria-label={menuOpen ? 'Close menu' : 'Open menu'}
-              aria-expanded={menuOpen}
-            >
-              <div className="relative w-6 h-5">
-                <span className={`absolute left-0 h-0.5 w-6 bg-current transition-all duration-300 ${menuOpen ? 'top-2 rotate-45' : 'top-0'}`} />
-                <span className={`absolute left-0 top-2 h-0.5 w-6 bg-current transition-all duration-300 ${menuOpen ? 'opacity-0' : 'opacity-100'}`} />
-                <span className={`absolute left-0 h-0.5 w-6 bg-current transition-all duration-300 ${menuOpen ? 'top-2 -rotate-45' : 'top-4'}`} />
-              </div>
-            </button>
           </div>
         </header>
       </div>
+
+      {/* Mobile hamburger - outside header for z-index above overlay */}
+      <button
+        className="md:hidden fixed top-10 right-10 z-[60] w-10 h-10 flex items-center justify-center"
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+        aria-expanded={menuOpen}
+      >
+        <div className="relative w-6 h-5">
+          <span className={`absolute left-0 h-0.5 w-6 bg-current transition-all duration-300 ${menuOpen ? 'top-2 rotate-45' : 'top-0'}`} />
+          <span className={`absolute left-0 top-2 h-0.5 w-6 bg-current transition-all duration-300 ${menuOpen ? 'opacity-0' : 'opacity-100'}`} />
+          <span className={`absolute left-0 h-0.5 w-6 bg-current transition-all duration-300 ${menuOpen ? 'top-2 -rotate-45' : 'top-4'}`} />
+        </div>
+      </button>
 
       {/* Mobile menu - outside header container */}
       <AnimatePresence>
