@@ -27,13 +27,30 @@ export function Header() {
     <>
       <div className="fixed top-6 left-6 right-6 z-50">
         <header
-          className={`transition-all duration-500 rounded-full px-6 md:px-8 ${
+          className={`transition-all duration-500 rounded-full px-6 md:px-8 relative ${
             scrolled
-              ? 'py-2 glass shadow-lg'
-              : 'py-3 md:py-4 bg-navy-800/60 backdrop-blur-md border border-white/10'
+              ? 'h-12 md:h-14 glass shadow-lg'
+              : 'h-14 md:h-16 bg-navy-800/60 backdrop-blur-md border border-white/10'
           }`}
         >
-          <div className="flex items-center justify-between">
+          {/* Logo - absolute, overflows the container */}
+          <a
+            href="#"
+            className="absolute left-1/2 -translate-x-1/2 -top-2 md:-top-4"
+            aria-label="Vette - Home"
+          >
+            <Image
+              src="/logo.png"
+              alt="Vette Auto Brokerage Logo"
+              width={scrolled ? 100 : 140}
+              height={scrolled ? 50 : 70}
+              className="transition-all duration-500 object-contain"
+              style={{ width: scrolled ? 100 : 140, height: 'auto' }}
+              priority
+            />
+          </a>
+
+          <div className="flex items-center justify-between h-full">
             {/* Left nav - desktop */}
             <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
               {navItems.map((item) => (
@@ -48,32 +65,14 @@ export function Header() {
               ))}
             </nav>
 
-            {/* Mobile: logo left, hamburger right */}
-            {/* Desktop: logo center (absolute) */}
-            <a
-              href="#"
-              className="md:absolute md:left-1/2 md:-translate-x-1/2"
-              aria-label="Vette - Home"
-            >
-              <Image
-                src="/logo.png"
-                alt="Vette Auto Brokerage Logo"
-                width={scrolled ? 80 : 100}
-                height={scrolled ? 40 : 50}
-                className="transition-all duration-500 object-contain md:w-auto"
-                style={{ width: scrolled ? 80 : 100, height: 'auto' }}
-                priority
-              />
-            </a>
-
             {/* Right controls - desktop */}
-            <div className="hidden md:flex items-center gap-3">
+            <div className="hidden md:flex items-center gap-3 ml-auto">
               <LanguageSwitcher />
             </div>
 
-            {/* Mobile hamburger - inside header */}
+            {/* Mobile hamburger */}
             <button
-              className="md:hidden relative z-[60] w-10 h-10 flex items-center justify-center"
+              className="md:hidden ml-auto w-10 h-10 flex items-center justify-center"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label={menuOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={menuOpen}
@@ -96,8 +95,19 @@ export function Header() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden fixed inset-0 z-[55] bg-navy-900/98 backdrop-blur-xl flex flex-col items-center justify-center gap-8"
+            className="md:hidden fixed inset-0 z-[60] bg-navy-900/98 backdrop-blur-xl flex flex-col items-center justify-center gap-8"
           >
+            {/* Close button */}
+            <button
+              onClick={() => setMenuOpen(false)}
+              className="absolute top-10 right-10 w-10 h-10 flex items-center justify-center"
+              aria-label="Close menu"
+            >
+              <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+
             {navItems.map((item, i) => (
               <motion.a
                 key={item.href}
